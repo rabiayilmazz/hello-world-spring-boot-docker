@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: container-spring
-          image: swr.ap-southeast-3.myhuaweicloud.com/yatas-test/spring-test:${BUILDNUMBER}
+          image: swr.ap-southeast-3.myhuaweicloud.com/yatas-test/spring-test:${BUILDNUMBER} 
           resources:
             limits:
               cpu: 250m
